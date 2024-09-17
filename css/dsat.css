@@ -1,0 +1,191 @@
+
+.vertical-nav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #230075;
+    padding-top: 0; 
+}
+
+/* Style the navigation links inside the bar */
+.vertical-nav a {
+    padding: 15px 5px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+/* Change color on hover */
+.vertical-nav a:hover {
+    background-color: #4337ee;
+    color: white;
+    border-radius:20px;
+}
+
+/* Main header */
+.mainHeader{
+    background-color: #6b75fc; 
+    color: white; 
+    height: 50px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 0; 
+    width: 100%; 
+    box-sizing: border-box; 
+    text-align: center; 
+}
+
+.vertical-nav ul{
+    list-style-type: none;
+}
+
+.mainContent{
+    padding-left:500px;
+    padding-top:50px;
+}
+.header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color:#230075;
+}
+.subheader{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:#230075;
+}
+.adaptiveExams{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+}
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+  }
+  
+.box {
+    flex: 1; 
+    border: 1px solid #414141;
+    border-radius: 8px;
+    padding-left:20px;
+    background-color: #f5f4f4;
+    width:1000px;
+    height: 50px;
+  }
+  
+.box-header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .adaptiveTest {
+    background-color: #e8e8e9;
+    width: 1100px;
+    color: rgb(0, 0, 0);
+    padding: 8px 16px;
+    border: 1px solid #414141;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.practice-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 1100px; 
+    margin-bottom: 20px;
+}
+
+.practice {
+    margin: 0;
+    padding-top:20px;
+    font-size: 1.2em; 
+}
+
+.practiceButton {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 1em; 
+}
+
+.practiceButton:hover {
+    background-color: #0056b3;
+}
+
+
+.dropdown-container {
+    width: 1100px;
+    margin-left: 0;
+  }
+  
+  /* Styling for each dropdown box */
+  .dropdown-box {
+    border: 1px solid #ccc;
+    border-bottom: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  .dropdown-box:last-child {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .dropdown-box summary {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #4965e2;
+    outline: none;
+    list-style: none;
+    margin: 10px;
+  }
+
+  .dropdown-box p {
+    padding:10px;
+  }
+  
+  /* Content inside the dropdown */
+  .dropdown-content {
+    padding-top: 10px;
+  }
+  
+  /* Row styling for the questions and buttons */
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0; 
+    border-top: 1px solid #e0e0e0;
+    padding-top: 8px;
+  }
+  
+  /* Styling for the practice button */
+  .practice-btn {
+    background-color: #007BFF;
+    height:25px;
+    width:65px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .practice-btn:hover {
+    background-color: #0056b3;
+  }
+  
